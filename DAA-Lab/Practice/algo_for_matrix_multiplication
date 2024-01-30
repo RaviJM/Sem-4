@@ -1,0 +1,17 @@
+initialize empty 2D array C
+
+for i=1 to r1; i++
+
+    for j=1 to c2; j++
+
+        for k=1 to c1/5; k+=5
+
+            C[i][j] + = A[i][k] * B[k][j]
+            C[i+1][j+1] + = A[i][k] * B[k+1][j]
+            C[i+2][j+2] + = A[i][k] * B[k+2][j]
+            C[i+3][j+3] + = A[i][k] * B[k+3][j]
+            C[i+4][j+4] + = A[i][k] * B[k+4][j]
+
+        end for
+    end for
+end for
