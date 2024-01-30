@@ -1,0 +1,1 @@
+select ename from EMP where sal = (select (max(sal)+min(sal))/2 from EMP);

@@ -1,0 +1,1 @@
+select e1.* from emp e1 JOIN emp e2 ON e1.hiredate = e2.hiredate AND e1.empno<>e2.empno;

@@ -1,0 +1,1 @@
+select ename, deptno from EMP where (sal,deptno) in (select max(sal),deptno as m from EMP group by deptno);

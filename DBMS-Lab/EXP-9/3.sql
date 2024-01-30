@@ -1,0 +1,1 @@
+select max(avg_sal) from (select Avg(SAL) as avg_sal from Emp where Job != "President" group by job) as A;

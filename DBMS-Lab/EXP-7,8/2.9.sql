@@ -1,0 +1,1 @@
+select e1.* from EMP e1, EMP e2 where e1.hiredate=e2.hiredate and e1.empno!=e2.empno;

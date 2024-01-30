@@ -1,0 +1,1 @@
+select scode, turnover from supplier order by turnover desc;

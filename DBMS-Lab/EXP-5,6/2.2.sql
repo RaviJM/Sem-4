@@ -1,0 +1,1 @@
+select * from supplier where scity="Bombay" && turnover=50;

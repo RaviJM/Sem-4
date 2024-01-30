@@ -1,0 +1,1 @@
+select e.ename from emp e JOIN (select AVG(sal) as avg_sal from (select MAX(sal) as sal from emp UNION select MIN(sal) as sal from emp) s)a ON e.sal = a.avg_sal;

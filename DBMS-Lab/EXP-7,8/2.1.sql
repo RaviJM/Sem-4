@@ -1,0 +1,1 @@
+select * from emp where sal > (select sal from emp where ENAME = "BLAKE");

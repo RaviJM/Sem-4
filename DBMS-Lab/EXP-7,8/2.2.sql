@@ -1,0 +1,1 @@
+select ENAME from emp where job = (select job from emp where Ename = "ALLEN");

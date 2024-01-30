@@ -1,0 +1,4 @@
+use ravidb;
+create table CLIENT_MASTER(CLIENTNO varchar(6), NAME varchar(20), ADDRESS1 varchar(30), ADDRESS2 varchar(30), CITY varchar(15), PINCODE int, STATE varchar(15), BALDUE decimal(10,2));
+create table PRODUCT_MASTER(PRODUCTNO varchar(6), DESCRIPTION varchar(15), PROFITPERCENT decimal(4,2),UNITMEASURE varchar(10),QTYONHAND int, REORDERLVL int, SELLPRICE decimal(8,2), COSTPRICE decimal(8,2));
+create table SALESMAN_MASTER(SALESMANNO varchar(6),SALESMANNAME varchar(20), ADDRESS1 varchar(30),ADDRESS2 varchar(30), CITY varchar(20),PINCODE int, STATE varchar(20), SALAMT real, TGTTOGET decimal, YTDSALES double(6,2), REMARKS varchar(60));

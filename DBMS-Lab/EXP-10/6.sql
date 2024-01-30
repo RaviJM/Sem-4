@@ -1,0 +1,1 @@
+select e.* from emp e JOIN (select MAX(hiredate) as recent_hire from emp where mgr = (select empno from emp where ename='KING'))r ON e.hiredate < r.recent_hire;  

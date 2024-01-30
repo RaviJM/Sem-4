@@ -1,0 +1,1 @@
+select e1.* from emp e1 inner join emp e2 on e1.mgr = e2.empno where e1.hiredate < e2.hiredate;

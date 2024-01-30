@@ -1,0 +1,1 @@
+select deptno, ename from emp where (sal,deptno) in (select max(sal), deptno from emp group by deptno) order by deptno;

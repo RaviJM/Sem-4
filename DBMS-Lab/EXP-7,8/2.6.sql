@@ -1,0 +1,1 @@
+select * from emp where hiredate < (select max(hiredate) from emp where mgr in (select empno from emp where ename = 'KING')) ;

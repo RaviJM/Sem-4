@@ -1,0 +1,1 @@
+select scode,pcode from supplier_part order by scode;

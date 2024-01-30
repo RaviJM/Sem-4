@@ -1,0 +1,1 @@
+select * from Dept where Deptno in (select Deptno from Emp group by Deptno having count(Empno>=2));

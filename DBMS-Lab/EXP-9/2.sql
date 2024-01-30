@@ -1,0 +1,1 @@
+select deptno,job,count(Empno),avg(SAL) from Emp group by Deptno,Job order by Deptno;

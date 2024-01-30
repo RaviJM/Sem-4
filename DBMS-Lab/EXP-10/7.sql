@@ -1,0 +1,1 @@
+select e1.ename, e1.sal, e1.deptno from emp e1 join (select max(sal) as MaxSal, deptno from emp group by deptno) as tab on e1.deptno = tab.deptno and e1.sal = tab.MaxSal;

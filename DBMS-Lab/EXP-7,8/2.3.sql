@@ -1,0 +1,1 @@
+select ENAME from emp where sal in (select sal from emp where ENAME="FORD" or ENAME="SMITH") order by ENAME desc;

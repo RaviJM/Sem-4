@@ -1,0 +1,1 @@
+select e1.ename from emp e1 inner join (select ename, sal from emp) as e2 on e1.sal = e2.sal where e2.ename in ("FORD","SMITH") order by e1.ename desc;

@@ -1,0 +1,1 @@
+select ename from emp where sal = (select max(sal) from (select * from emp as M where deptno = (select deptno from dept where dname="SALES")) as N);

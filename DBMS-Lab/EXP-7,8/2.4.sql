@@ -1,0 +1,1 @@
+select ENAME from emp where job = (select job from emp where ENAME="MILLER") or sal > (select sal from emp where ENAME="ALLEN");

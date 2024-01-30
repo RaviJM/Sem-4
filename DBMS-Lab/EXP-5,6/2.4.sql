@@ -1,0 +1,1 @@
+select pcode from part where weigh between 25 and 35;
