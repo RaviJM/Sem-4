@@ -1,0 +1,50 @@
+vim <file name> - to edit .sh files
+	eg: vim q1.sh
+
+bash <file name> - to run .sh files
+	eg: vim q1.sh
+
+cat <file name> - to see contents of .sh files
+	eg: cat q1.sh
+
+
+
+
+
+
+
+Commands INSIDE vim editor:
+
+
+press i to start editing (insert)
+
+to print: echo "hello"
+
+to take input: read n
+
+to output: echo "$n"
+		or
+	     echo $n
+
+
+Note: echo "hello" means print
+	echo -n "hello" means prinln
+
+for ((i=0; i<n; i++))
+do
+	- -
+done
+
+
+assignment for addition of 2 number:
+c=$(($a+$b))
+
+
+
+
+press esc, then:
+	:w - to save
+	:q - to quit
+	:wq - to save & exit
+
+
